@@ -35,13 +35,13 @@ class App extends PureComponent {
       }
 }
 // 类组件
-function enhanceComponent(WrappedComponent) {
-   return class NewComponent extends PureComponent {
-       render() {
-           return <WrappedComponent/>
-       }
-   }
-}
+// function enhanceComponent(WrappedComponent) {
+//    return class NewComponent extends PureComponent {
+//        render() {
+//            return <WrappedComponent/>
+//        }
+//    }
+// }
 // 函数组件
 function enhanceComponent2(WrappedComponent) {
     function NewComponent(props) {

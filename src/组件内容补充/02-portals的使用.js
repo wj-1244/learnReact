@@ -10,6 +10,7 @@ class Modal extends PureComponent {
     }
      
 }
+// portals可以创建挂载到另一个DOM上
 class Home extends PureComponent {
     render(){
         return (
@@ -19,7 +20,7 @@ class Home extends PureComponent {
                  <h2>333333</h2>
               </Modal>
           </div>
-        )
+        ) 
     }
      
 }
