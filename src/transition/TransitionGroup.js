@@ -11,7 +11,6 @@ export default class Transitiongroups extends Component {
   }
 //   react-transition-group主要组件
     render(){
-        const {isOn} = this.state
         return (
           <TransitionGroup>
             {

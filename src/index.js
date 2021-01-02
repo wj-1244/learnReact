@@ -8,7 +8,13 @@ import 'antd/dist/antd.css';
 // import App from '../src/插槽/App'
 // import App from '../src/组件内容补充/02-portals的使用'
 // import App from '../src/transition/CSSTransitionDemo'
-import App from '../src/transition/TransitionGroup'
+import App from '../src/reduxdemo/index'
+
+
+
+
+
+
 ReactDOM.render(
     <App />,
   document.getElementById('root')
