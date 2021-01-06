@@ -6,7 +6,7 @@ export default class About extends PureComponent {
     constructor(props) {
         super(props);
         this.state= {
-            counter: store.getState().counter
+            counter: store.getState().new
         }
     }
     componentDidMount() {

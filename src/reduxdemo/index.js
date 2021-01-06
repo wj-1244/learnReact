@@ -1,7 +1,6 @@
 import React,{ PureComponent } from 'react'
-import Home from './home'
-import About from './about'
-// import store from '../redux';
+import Home from './home2'
+import About from './about2'
 
 export default class Index extends PureComponent {
     

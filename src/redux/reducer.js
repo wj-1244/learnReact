@@ -6,11 +6,12 @@ import {
   } from './constants.js';
   
   const defaultState = {
-    counter: 0
+    counter: 0,
+    new:3
   }
   
   function reducer(state = defaultState, action) {
-      console.log(state.counter,'------',action,'========',action.type)
+      // console.log(state.counter,'------',action,'========',action.type)
     switch (action.type) {
       case ADD_NUMBER:
         return { ...state, counter: state.counter + action.num };
